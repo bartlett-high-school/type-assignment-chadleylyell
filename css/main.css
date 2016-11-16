@@ -21,30 +21,28 @@ body {
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,.15);
 }
 
-h1 {
-
+.para {
+    font-family: 'changaregular';
 }
 
-h2 {
-
+.headers {
+    font-family: 'artifikamedium';
 }
 
-h3 {
-
+@font-face {
+    font-family: 'artifikamedium';
+    src: url('../fonts/artifika-regular-webfont.woff2') format('woff2'),
+    url('../fonts/artifika-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
 }
 
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
-}
-
-p {
-
+@font-face {
+    font-family: 'changaregular';
+    src: url('../fonts/changa-regular-webfont.woff2') format('woff2'),
+    url('../fonts/changa-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
 }
